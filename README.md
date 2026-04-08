@@ -30,6 +30,14 @@ As a result, traffic does not pass through pfSense correctly, so the Captive Por
 The client is using the router instead of pfSense as both the default gateway and DNS server.
 
 
+
+
+![image](1775644669669.png)
+
+
+
+
+
 ## Practical Fix (windows):
 
 Press Windows + R
@@ -67,4 +75,4 @@ Preferred DNS Server = pfSense IP
 
 
 
-![Alt text](1775644669669.png)
+
