@@ -13,7 +13,7 @@ curl does not return a redirect response
 
 ## root cause
 
-The client device is not properly using pfSense as the network gateway and DNS server:
+Captive Portal It depends on the traffic passing through pfsense It is intercepted, but if The client device is not properly using pfSense as the network gateway and DNS server:
 
 
 • Default Gateway is set to the router         instead of pfSense
@@ -27,7 +27,7 @@ As a result, traffic does not pass through pfSense correctly, so the Captive Por
 
 ## the solution:
 
-The device itself or the client does not pfsense As Getaway And DNS It refers to the router itself, not pfsense
+The client is using the router instead of pfSense as both the default gateway and DNS server.
 
 
 ## Practical Fix (windows):
