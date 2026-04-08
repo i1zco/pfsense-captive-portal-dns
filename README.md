@@ -64,3 +64,7 @@ Default Gateway = pfSense IP (e.g. 192.168.1.1)
 
 
 Preferred DNS Server = pfSense IP
+
+
+
+![Alt text](1775644669669.png)
