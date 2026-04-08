@@ -1,1 +1,1 @@
-# pfsense-captive-portal-dns
+# pfSense DNS issue with Captive Portal not redirecting
